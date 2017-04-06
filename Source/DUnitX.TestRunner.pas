@@ -2,7 +2,7 @@
 {                                                                           }
 {           DUnitX                                                          }
 {                                                                           }
-{           Copyright (C) 2015 Vincent Parrett & Contributors               }
+{           Copyright (C) 2017 Vincent Parrett & Contributors               }
 {                                                                           }
 {           vincent@finalbuilder.com                                        }
 {           http://www.finalbuilder.com                                     }
@@ -174,7 +174,7 @@ uses
   {$ELSE}
   TypInfo,
   StrUtils,
-  Types,  
+  Types,
   {$ENDIF}
   DUnitX.Attributes,
   DUnitX.CommandLine.Options,
@@ -1043,4 +1043,3 @@ begin
 end;
 
 end.
-
