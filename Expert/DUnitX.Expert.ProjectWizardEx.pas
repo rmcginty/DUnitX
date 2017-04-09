@@ -2,7 +2,7 @@
 {                                                                           }
 {           DUnitX                                                          }
 {                                                                           }
-{           Copyright (C) 2015 Vincent Parrett & Contributors               }
+{           Copyright (C) 2017 Vincent Parrett & Contributors               }
 {                                                                           }
 {           vincent@finalbuilder.com                                        }
 {           http://www.finalbuilder.com                                     }
@@ -73,8 +73,6 @@ uses
 resourcestring
   sNewTestProjectCaption = 'DUnitX Project';
   sNewTestProjectHint = 'Create New DUnitX Test Project';
-
-{ TDUnitXNewProjectWizard }
 
 class procedure TDUnitXNewProjectWizard.RegisterDUnitXProjectWizard(const APersonality: string);
 begin
